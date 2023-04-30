@@ -22,4 +22,4 @@ CREATE TABLE users (
   login varchar(10) NOT NULL DEFAULT '',
   password varchar(10) NOT NULL DEFAULT '',
   PRIMARY KEY (user_id)
-)
+);
