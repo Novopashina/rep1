@@ -1,0 +1,71 @@
+body {
+    margin-top: 100px;
+    font-size: large;
+    background: #c1dec6;
+    font-family: Montserrat;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+table { 
+    border-collapse: separate; 
+    margin-bottom: 100px;
+    text-align: center;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+td, th {
+    padding: 8px; 
+    border: 3px solid black; 
+}
+
+th {
+    background: #71ab68; 
+}
+
+caption {
+    padding: 10px;
+}
+
+@media (max-width: 660px) {
+    table {
+        scale: 0.5;
+        margin-bottom: 20px;
+    }
+}
+
+.abilities {
+    display: flex;
+    align-items: flex-start;
+    align-items: center;
+}
+
+.abilities1 {
+    margin-right: 50px;
+}
+
+.abilities2 {
+    margin-left: 50px;
+}
+
+#header {
+    position: absolute;
+    text-align: center;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    padding: 10px;
+    font-size: 20px;
+    background: rgba(0, 0, 0, 0.8);
+    color: #3CB371;
+    margin-bottom: 15px;
+}
+
+.message {
+    color: red;
+}
