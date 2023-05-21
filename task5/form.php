@@ -115,11 +115,12 @@
         <label for="checkboxContract" <?php if ($errors['checkboxContract']) {print 'class="error"';} ?>>С контрактом ознакомлен</label>
         <?php if ($errors['checkboxContract']) {print $messages['checkboxContract'];} ?>
       </div>
+      <?php if (!empty($_SESSION['login'])) {echo '<input type="hidden" name="token" value="' . $_SESSION["token"] . '">'; } ?>
       <input class="btn" type="submit" name="submit" value="Отправить" />
     </div>
   </form>
   <div class="href">
-    <a href="../task3/BD/"><img src="https://cdn-icons-png.flaticon.com/512/1602/1602309.png" alt="db" width="20px" height="20px"></a>
+    <a href="../task6/"><img src="https://cdn-icons-png.flaticon.com/512/1602/1602309.png" alt="db" width="20px" height="20px"></a>
   </div>
 </body> 
 </html>
